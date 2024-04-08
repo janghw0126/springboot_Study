@@ -12,12 +12,12 @@ java {
 }
 
 repositories {
-	mavenCentral()  //dependencies에 있는 라이브러리를 다운로드 해주는 사이트
+	mavenCentral()  // dependencies에 있는 라이브러리를 다운로드 해주는 mavenCentral() 사이트에서 다운받으라고 설정을 간단하게 해놓은 것
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' //HTML 만드는 템플릿 엔진
-	implementation 'org.springframework.boot:spring-boot-starter-web' //웹프로젝트 선택함
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // HTML 만드는 템플릿 엔진
+	implementation 'org.springframework.boot:spring-boot-starter-web' // 웹프로젝트 선택함
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
